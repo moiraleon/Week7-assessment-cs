@@ -1,0 +1,30 @@
+Continuous Integration Tools: 
+Jenkins
+https://jenkins.io/
+Buddy
+https://buddy.works/
+
+Real Time Error Monitoring tools:
+Raygun
+https://raygun.com/
+Sentry
+https://sentry.io/welcome/
+
+Unique Features:
+Jenkins- open-source continuous Integration server-based application,most reliable software delivery automation tool,written in JAVA, easy installation
+Buddy- web-based, self-hosted Continuous Integration,extremely friendly user-interface, can be deployed to any hosting and cloud service providers
+Raygun-See the exact line of code that caused an error,Monitor deployments to determine what caused a spike or decrease in error count,Groups errors by affected users,Raygun will cost $4 per 10,000 events, affordable
+Sentry-Custom queries,Supports JavaScript Python Ruby Node GO iOS Android, stable error monitoring tool, flexible price plans(tend to range more expensive)
+
+Getting Started instructions
+Jenkins- https://www.jenkins.io/doc/book/pipeline/getting-started/ Easy steps to follow, well documented instructions with pictures, tutorials are listed under tutorials tab and users can select which tutorial best applies, easy to follow, heavy reading, no video
+Buddy- https://buddy.works/tutorials, https://buddy.works/docs/api/getting-started, vey simple and quick tutorial, when working on pipelines very specified and verious catergories available for tutorials, no videos, pictures of console, sandboxes available for all paid accounts 
+Raygun- https://raygun.com/blog/welcome-to-raygun/, https://raygun.com/documentation/ step by step tutorials available for each language, simple instructions with terminal pictures, no video
+Sentry- https://docs.sentry.io/product/performance/getting-started/, getting started and tutorials listed in columns, heavy reading, many pictures but written in blog post style as opposed to steps
+
+Summary
+
+Jenkins- Initiated in 2004, released in 2011, one of most well known, owning nearly 50% of the market share,more than 1,500 plugins,Jenkins requires a lot of maintenance, developers find it more work than it is worth
+Buddy- Six Flags honorable mention,You can perform the configuration in 15 minutes through the GUI with YAML export function, markey share value stats unavailable,
+Raygun- Used by companies like Rumble, Olo, market shafre of 0.01%, current customers 483 
+Sentry- Market share 2.81%, popularity based on current customers 175,654
