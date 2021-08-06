@@ -1,0 +1,61 @@
+Part 2 
+
+It’s time to run the file! Run the command node runtime.js in the same directory as where the file lives.
+completed
+
+In your notes document, take note of the timing result for the extraLargeArray results– comparing when the extraLargeArray
+is passed to doublerAppend and doublerInsert.
+insert 803.613771 ms
+append 8.252795 ms
+
+Next, edit the code in runtime.js to obtain timing results for calling the two functions with all of the differently 
+sized arrays– tinyArray, smallArray, mediumArray, largeArray, and extraLargeArray. Notate these in your document in some
+kind table table so that you can easily compare the different values for the timers in relation to the size of the array that was passed into each function.
+||tinyArray ||insert 35.607 μs ||append 88.845 μs
+||smallArray||insert 52.548 μs ||append 111.801 μs
+||mediumArray||insert 168.963 μs||append 158.885 μs
+||largeArray||insert 6.331396 ms||append 640.651 μs
+||extraLargeArray|| insert 803.613771 ms||append 8.252795 ms
+
+
+Read over the results, and write a paragraph that explains the pattern you see. How does each function “scale”? Which of the two functions scales better? How can you tell?
+
+According to what I found on the meaning of scaling being funcitons that reduce in time I would recognize 
+the time values of both the largeArrayand the extraLargeArray to be scaling because teir time increments decrease from the first function to the second.
+
+to be able to compare the values I've converted them all to milliseconds
+largeArray
+insert 6.331396 ms=> append 0.640651 ms 
+extraLargeArray insert 803.613771 ms => append 8.252795 ms
+
+then I divided them to get a time ratio 
+
+largeArray 0.101186373431704
+extraLargeArray 0.010269603754712
+
+
+Because I had no idea what to make of these I did a similar operation to numbers I could make sense of to know how to compare the scaling of values
+10/100 = .1
+1/100 = .01
+
+https://towardsdatascience.com/all-about-feature-scaling-bcc0ad75cb35
+
+this article helped me understand that sclaing has to do with proportions which helped me interpret my time ratios/proportions
+it helped me put into context the ratios we see like in price per pound of fruits or vegetables.
+
+My sturggle with this question is interpreting just what the word "better" implies when it comes to a decreasing scale. 
+Am I observing which one decreases more or less? I would guess if we are comparing the scaling decrease more.
+
+***in this case better means faster
+
+in this case the .1 ratio or the largeArray is decreasing faster
+ my screen shot of these two graphs (increasing) can be used to interpret the same acceleration for decreasing
+
+
+For extra credit, do some review / research on why the slower function is so slow, and summarize the reasoning for this.
+
+
+
+
+
+
